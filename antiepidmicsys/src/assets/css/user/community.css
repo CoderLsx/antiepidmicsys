@@ -1,0 +1,94 @@
+h2 {
+  width: 100px;
+  margin: 0 auto;
+}
+/* ------------------------------------------------ */
+.infinite-list {
+  position: absolute;
+  width: 700px;
+  height: 64%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.infinite-list .infinite-list-item {
+  display: flex;
+  align-items: center;
+  height: 90%;
+  background: #fff;
+  margin-bottom: 50px;
+  color: var(--el-color-primary);
+  top: 45px;
+}
+.infinite-list .infinite-list-item + .list-item {
+  margin-top: 10px;
+}
+
+/* ------------------------------------------------ */
+.text {
+  position: relative;
+  width: 500px;
+  top: -6px;
+  left: 100px;
+  color: black;
+  text-align: left;
+  word-wrap: break-word;
+}
+.username {
+  position: relative;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  top: -15px;
+  left: -160px;
+}
+.date {
+  position: relative;
+  color: gray;
+  font-size: 13px;
+  top: 10px;
+  left: 100px;
+  text-align: left;
+}
+/* ------------------------------------------------ */
+
+.el-avatar {
+  position: relative;
+  left: -160px;
+  margin: 10px;
+}
+.el-textarea {
+  width: 600px;
+}
+.el-button {
+  position: relative;
+  top: -80px;
+  left: 20px;
+}
+/* ------------------------------------------------ */
+
+#userphoto {
+  position: relative;
+  top: -70px;
+  left: -10px;
+}
+
+.scrollbar-demo-item {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 4px;
+  background: var(--el-color-primary-light-9);
+  color: var(--el-color-primary);
+}
+
+.main{
+  width: 800px;
+  margin: 0 auto;
+}
+.footer{
+  width: 800px;
+  margin: 0 auto;
+}

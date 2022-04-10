@@ -1,0 +1,54 @@
+#bar {
+  display: inline-block;
+  position: absolute;
+  left: 40%;
+  top: 10px;
+}
+#barinp {
+  -webkit-appearance: none;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 20px;
+  border: 1px solid #8c8d91;
+  box-sizing: border-box;
+  color: #606266;
+  display: inline-block;
+  font-size: inherit;
+  height: 40px;
+  line-height: 40px;
+  outline: none;
+  padding: 0 15px;
+  transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  width: 450px;
+}
+#barinp:focus {
+  outline: none;
+  border-color: #409eff;
+}
+#barbtn {
+  position: absolute;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: url("../../picture/搜索.png");
+  color: #606266;
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  transition: 0.1s;
+  font-weight: 500;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  font-size: 14px;
+  border-radius: 50%;
+  border: #fff;
+  padding: 12px;
+  left: 90%;
+  top: 4px;
+  z-index: 1;
+  background-size: 100% 100%;
+}

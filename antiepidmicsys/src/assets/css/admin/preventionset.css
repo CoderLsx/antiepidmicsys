@@ -1,0 +1,34 @@
+.el-page-header {
+  position: absolute;
+  top: 64px;
+  left: 200px;
+}
+.el-descriptions {
+  position: absolute;
+  top: 150px;
+  left: 500px;
+}
+.el-date-picker {
+  width: 200px;
+}
+.el-input {
+  position: relative;
+  width: 500px;
+  padding-right: 10px;
+}
+
+#itemtext {
+  padding-right: 20px;
+  font-weight: 600;
+}
+.virulsmessage {
+  font-family: PingFang SC;
+  width: 500px;
+}
+
+.el-button {
+  position: absolute;
+  top: 680px;
+  left: 880px;
+  width: 150px;
+}

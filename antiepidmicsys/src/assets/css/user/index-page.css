@@ -1,0 +1,22 @@
+/* 顶部菜单栏 */
+/* ------------------------------------------- */
+#tarbar-top {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #dedfed;
+  justify-content: space-between;
+  background: rgb(83, 168, 255);
+}
+#logo {
+  position: relative;
+  top: 10px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+/* ------------------------------------------- */
+.el-header {
+  width: 100%;
+  height: 60px;
+  padding: 0 !important;
+}   

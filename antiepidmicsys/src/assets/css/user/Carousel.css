@@ -1,0 +1,34 @@
+/* 轮播图 */
+/* ----------------------------- */
+.el-carousel,
+.el-carousel--horizontal {
+  position: absolute;
+  top: 100px;
+  left: 30%;
+  display: inline-block;
+  width: 800px;
+}
+.Carouselpic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Carouselpic img {
+  width: 100%;
+  height: 100%;
+}
+.el-carousel__item img {
+  position: relative;
+  color: #475669;
+  font-size: 18px;
+  opacity: 0.75;
+  line-height: 300px;
+  margin: 0;
+}
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+.el-carousel__item:nth-child(2n + 1) {
+  background-color: #d3dce6;
+}
+/* -------------------------------------- */

@@ -1,0 +1,112 @@
+#background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../../../assets/picture/个人背景图.jpeg");
+  /* background-position: 100% 100%; */
+  /* z-index: 10; */
+}
+#table {
+  position: absolute;
+  border-radius: 25px;
+  border: 1px solid #dedfed;
+  background: #fff;
+  top: 20%;
+  left: 35%;
+  width: 500px;
+  height: 500px;
+  opacity: 0.9;
+}
+.el-input {
+  width: 300px;
+}
+
+.demo-date-picker {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.demo-date-picker .block {
+  padding: 30px 0;
+  text-align: center;
+  border-right: solid 1px var(--el-border-color-base);
+  flex: 1;
+}
+.demo-date-picker .block:last-child {
+  border-right: none;
+}
+
+.demo-date-picker .container {
+  flex: 1;
+  border-right: solid 1px var(--el-border-color-base);
+}
+.demo-date-picker .container .block {
+  border-right: none;
+}
+.demo-date-picker .container .block:last-child {
+  border-top: solid 1px var(--el-border-color-base);
+}
+.demo-date-picker .container:last-child {
+  border-right: none;
+}
+
+.demo-date-picker .demonstration {
+  display: block;
+  color: var(--el-text-color-regular);
+  font-size: var(--er-form-label-font-size);
+  margin-bottom: 20px;
+}
+.demonstration {
+  position: relative;
+  left: -11px;
+  font-size: 14px;
+}
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader {
+  left: 42%;
+  position: relative;
+  width: 100px;
+  top: -13px;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409eff;
+}
+.el-icon.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 50%;
+}
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: block;
+}
+.el-button {
+  position: relative;
+  width: 120px;
+  top: 20px;
+  left: 200px;
+}
+.block {
+  position: relative;
+  left: 12.7%;
+  top: -4px;
+}
+
+#table-1 {
+  position: relative;
+  top: 30px;
+}

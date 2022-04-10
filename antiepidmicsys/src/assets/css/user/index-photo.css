@@ -1,0 +1,16 @@
+#profile_photo {
+  position: absolute;
+  right: 70px;
+  top: 10px;
+}
+.usertext {
+  position: relative;
+  color: white;
+  top: -10px;
+  margin-left: 10px;
+}
+.usertext:hover,
+.el-avatar:hover {
+  color: aqua;
+  cursor: pointer;
+}

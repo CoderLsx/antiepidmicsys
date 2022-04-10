@@ -1,0 +1,1 @@
+2022-04-04 18:21:05.193 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lsx.antiepidmicsystem]' package. Please check your configuration.

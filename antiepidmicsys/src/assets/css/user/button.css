@@ -1,0 +1,53 @@
+/* 登录按钮 */
+#log-btn-login,
+#admin-btn-login {
+  color: #fff;
+  background-color: #409eff;
+  border-color: #409eff;
+  /* top: 180px; */
+}
+
+/* 注册 */
+#log-btn-register,
+#register-btn-reg {
+  color: #fff;
+  background-color: #67c23a;
+  border-color: #67c23a;
+  /* top: 400px; */
+}
+
+#register-btn-back {
+  color: #fff;
+  background-color: #e6a23c;
+  border-color: #e6a23c;
+}
+
+.log-btn {
+  position: absolute;
+  left: 30%;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #dcdfe6;
+  color: #606266;
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  margin: 10px;
+  transition: 0.1s;
+  font-weight: 500;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 150px;
+}
+.log-btn-isround {
+  border-radius: 20px;
+  padding: 12px 23px;
+}

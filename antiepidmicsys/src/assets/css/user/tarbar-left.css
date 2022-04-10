@@ -1,0 +1,40 @@
+#top-left {
+  width: 200px;
+  /* height: 93.5%; */
+  min-height: 93.5vh;
+  border-right: 1px solid #dedfed;
+  background-color: rgb(140, 197, 255);
+
+}
+
+.el-col-12,
+.el-col,
+.el-menu-item {
+  max-width: 100%;
+  width: 200px;
+  flex: 0 0 100%;
+  background-color: rgb(217, 236, 255);
+}
+.el-menu-item,
+.is-active {
+  color: rgb(83, 168, 255);
+  font-weight: 600;
+  text-align: center;
+  padding: 0 50%;
+}
+.text {
+  position: relative;
+  font-size: 20px;
+  left: 60%;
+}
+
+.el-menu-item:hover {
+  background-color: rgb(83, 168, 255);
+  color: white;
+}
+
+.texticon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
